@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kredi Hesaplama Formu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Kredi Hesaplama Formu</h3>
+    <form id="form-kredi">
+        <label for="tutar">Çekilecek Kredi Tutarı</label>
+        <input type="text" id="tutar">
+        <label for="taksit">Geri Ödeme Taksit Sayısı</label>
+        <select name="" id="taksit">
+            <option value="12">12 ay</option>
+            <option value="24">24 ay</option>
+            <option value="36">36 ay</option>
+            <option value="48">48 ay</option>
+        </select>
+        <input type="button" id="hesapla" onclick="krediHesapla()" value="Kredi Geri Ödeme Şartlarını Hesapla">
+        <h5 id="sonuc"></h5>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

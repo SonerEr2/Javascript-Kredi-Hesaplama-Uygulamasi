@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgba(135, 200, 63, 0.7);
+    width: 100vh;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#form-kredi{
+    border: 1px solid;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+
+   
+}
